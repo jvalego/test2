@@ -60,6 +60,7 @@ body  {
 	margin: 0 1.5em 0 13em; /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
 } 
 .twoColElsLtHdr #footer {
+	font-size: 80%;
 	padding: 0 10px;
 	background-color: #DAD1C2;
 } 
@@ -67,6 +68,8 @@ body  {
 	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
 	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
+
+
 
 /* Miscellaneous classes for reuse */
 .fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
